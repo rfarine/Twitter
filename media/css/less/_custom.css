@@ -1,0 +1,58 @@
+/*
+ * Rae's Custom Styles for LESS
+ * (c) 2013 - Rae Farine
+ */
+/* ==========================================================================
+   Rae's Custom Styles
+   ========================================================================== */
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+/* HEADER */
+header h1 {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}
+/* MAIN */
+div.wrapper main section header {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}
+div.wrapper main section header nav {
+  font-family: 'MuseoSlabItalic', serif;
+  font-weight: normal;
+}
+div.wrapper main section header nav ul li a,
+div.wrapper main section header nav ul li a:link {
+  text-decoration: none;
+}
+div.wrapper main section article#intro h3 {
+  font-family: 'MuseoSlabItalic', serif;
+  font-weight: normal;
+}
+div.wrapper main section article#intro p {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}
+div.wrapper main section article#content h3 {
+  font-family: 'MuseoSlabItalic', serif;
+  font-weight: normal;
+}
+div.wrapper main section article#content p {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}
+div.wrapper aside h3 {
+  font-family: 'MuseoSlabItalic', serif;
+  font-weight: normal;
+}
+div.wrapper aside p {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}
+/* FOOTER */
+footer p {
+  font-family: 'MuseoSlab', serif;
+  font-weight: normal;
+}

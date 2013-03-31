@@ -1,0 +1,155 @@
+/*
+ * Rae's Custom Styles for LESS
+ * (c) 2013 - Rae Farine
+ */
+
+/* ==========================================================================
+   Rae's Custom Styles
+   ========================================================================== */
+
+body {
+	margin: 0 auto;
+	background: @white;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* HEADER */
+header {
+
+	h1 {
+		font-family: 'MuseoSlab', serif;
+		font-weight: normal;
+		font-size: 3em;
+		color: @violet;
+		line-height: 2em;
+		width: 49%;
+		display: inline-block;
+		margin: 0;
+
+	}
+
+	div {
+		font-family: 'MuseoSlabItalic';
+		font-weight: normal;
+		font-size: 1em;
+		width: 50%; 
+		display: inline-block;
+		text-align: right;
+		color: @black;
+
+		a, a:link {
+			color: @magenta;
+			text-decoration: none;
+			&:hover {background: fade(@lime, 50%);}
+		}
+	}
+
+	nav {}
+}
+
+/* MAIN */
+div.wrapper {
+	background: @black;
+	.border-radius(5px, 0, 0, 5px);
+	.inner-shadow(0, 0, 5px, 0.2);
+
+	main {
+		display: block;
+
+		section {
+			header {
+				font-family: 'MuseoSlab', serif;
+				font-weight: normal;
+				.gradient(@magenta, @magenta, lighten(@magenta, 10%));
+				.border-radius(5px, 0, 0, 5px);
+
+				h2 {
+					color: @white;
+					font-weight: normal;
+					font-size: 2em;
+					margin: 0 0.5em;
+
+					span.glyph {font-family: 'Social';
+							font-weight: normal;
+							-webkit-font-smoothing: antialiased;
+							font-size: 1em;
+							position:relative;
+							top: 5px;
+
+							a, a:link {
+								color: @lime;
+								text-decoration: none;
+
+								&:hover {color: @white;}
+							}
+					}
+				}
+				
+			}
+			article {
+				margin: 0 1.5em;
+
+				&#content {
+					h3 {
+						font-family: 'MuseoSlabItalic';
+						font-weight: normal;
+						color: @lime;
+					}
+					p {
+						font-family: 'MuseoSlab', serif;
+						font-weight: normal;
+					}
+					div {
+						&#tweet-wrapper {
+							div.tweet {
+								margin: 1.5em 0;
+								padding: 0.5em 1em;
+								font-family: 'MuseoSlab', serif;
+								font-weight: normal;
+								font-size: 1em;
+								text-align: justify;
+								color: @white;
+								background: lighten(@black, 5%);
+								.inner-shadow(0, 0, 5px, 0.2);
+
+								div.author {
+									a, a:link {
+										font-family: 'MuseoSlabItalic';
+										font-weight: normal;
+										font-size: 0.75em;
+										color: @lime;
+										text-decoration: none;
+
+										&:hover {text-decoration: underline;}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	aside {
+		h3 {
+			font-family: 'MuseoSlabItalic', serif;
+			font-weight: normal;
+			color: @white;
+		}
+		p {
+			font-family: 'MuseoSlab', serif;
+			font-weight: normal;
+		}
+	}
+
+}
+
+/* FOOTER */
+
+footer {
+	p {
+		font-family: 'MuseoSlab', serif;
+		font-weight: normal;
+	}
+}
